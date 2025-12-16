@@ -1,1 +1,27 @@
+# --- Python ---
+__pycache__/
+*.pyc
 .venv/
+.env
+
+# --- Vitis HLS & Vivado (Junk) ---
+# Log-uri și jurnale generate automat
+*.log
+*.jou
+*.str
+.Xil/
+
+# Folderul mare generat de Vitis la sinteză (ocupă sute de MB degeaba)
+hls/proj_mnist_hls/
+
+# --- Fișiere generate de Scriptul tău (Runtime) ---
+# Rezultatul simulării
+hls_result.txt
+hls/hls_result.txt
+
+# Header-ul generat din imagine
+hls/test_image.h
+
+# Alte rapoarte temporare (opțional, dacă vrei să păstrezi pdf-uri, scoate linia asta)
+*.rpt
+*.xml

@@ -1,0 +1,75 @@
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47317:5: remark: Added loop label VITIS_LOOP_36_1:   [xilinx-label-all-loops]
+    for(int oc = 0; oc < 8; oc++) {
+    ^
+    VITIS_LOOP_36_1: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47317:5: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47318:9: remark: Added loop label VITIS_LOOP_37_2:   [xilinx-label-all-loops]
+        for(int y = 0; y < 28; y++) {
+        ^
+        VITIS_LOOP_37_2: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47318:9: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47319:13: remark: Added loop label VITIS_LOOP_38_3:   [xilinx-label-all-loops]
+            for(int x = 0; x < 28; x++) {
+            ^
+            VITIS_LOOP_38_3: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47319:13: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47324:17: remark: Added loop label VITIS_LOOP_43_4:   [xilinx-label-all-loops]
+                for(int ky = 0; ky < 3; ky++) {
+                ^
+                VITIS_LOOP_43_4: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47324:17: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47325:21: remark: Added loop label VITIS_LOOP_44_5:   [xilinx-label-all-loops]
+                    for(int kx = 0; kx < 3; kx++) {
+                    ^
+                    VITIS_LOOP_44_5: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47325:21: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47352:5: remark: Added loop label VITIS_LOOP_71_6:   [xilinx-label-all-loops]
+    for(int oc = 0; oc < 16; oc++) {
+    ^
+    VITIS_LOOP_71_6: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47352:5: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47353:9: remark: Added loop label VITIS_LOOP_72_7:   [xilinx-label-all-loops]
+        for(int y = 0; y < 28; y++) {
+        ^
+        VITIS_LOOP_72_7: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47353:9: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47354:13: remark: Added loop label VITIS_LOOP_73_8:   [xilinx-label-all-loops]
+            for(int x = 0; x < 28; x++) {
+            ^
+            VITIS_LOOP_73_8: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47354:13: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47358:17: remark: Added loop label VITIS_LOOP_77_9:   [xilinx-label-all-loops]
+                for(int ic = 0; ic < 8; ic++) {
+                ^
+                VITIS_LOOP_77_9: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47358:17: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47359:21: remark: Added loop label VITIS_LOOP_78_10:   [xilinx-label-all-loops]
+                    for(int ky = 0; ky < 3; ky++) {
+                    ^
+                    VITIS_LOOP_78_10: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47359:21: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47360:25: remark: Added loop label VITIS_LOOP_79_11:   [xilinx-label-all-loops]
+                        for(int kx = 0; kx < 3; kx++) {
+                        ^
+                        VITIS_LOOP_79_11: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47360:25: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47384:5: remark: Added loop label VITIS_LOOP_103_12:   [xilinx-label-all-loops]
+    for(int i = 0; i < 10; i++) {
+    ^
+    VITIS_LOOP_103_12: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47384:5: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47389:9: remark: Added loop label VITIS_LOOP_108_13:   [xilinx-label-all-loops]
+        for(int c = 0; c < 16; c++) {
+        ^
+        VITIS_LOOP_108_13: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47389:9: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47390:13: remark: Added loop label VITIS_LOOP_109_14:   [xilinx-label-all-loops]
+            for(int y = 0; y < 28; y++) {
+            ^
+            VITIS_LOOP_109_14: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47390:13: note: FIX-IT applied suggested code changes
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47391:17: remark: Added loop label VITIS_LOOP_110_15:   [xilinx-label-all-loops]
+                for(int x = 0; x < 28; x++) {
+                ^
+                VITIS_LOOP_110_15: 
+C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp:47391:17: note: FIX-IT applied suggested code changes

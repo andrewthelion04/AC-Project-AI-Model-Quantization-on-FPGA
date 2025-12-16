@@ -1,0 +1,10 @@
+# Inferred from syn.compile.pipeline_loops=64
+set_directive_pipeline dense_int8/VITIS_LOOP_38_3
+set_directive_pipeline dense_int8/VITIS_LOOP_79_11
+set_directive_pipeline dense_int8/VITIS_LOOP_110_15
+# Inferred from Performance Budgeter performance directives
+set_directive_loop_flatten dense_int8/VITIS_LOOP_78_10
+set_directive_loop_flatten dense_int8/VITIS_LOOP_77_9
+set_directive_loop_flatten dense_int8/VITIS_LOOP_73_8
+set_directive_loop_flatten dense_int8/VITIS_LOOP_72_7
+set_directive_loop_flatten dense_int8/VITIS_LOOP_71_6

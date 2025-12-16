@@ -1,0 +1,21 @@
+{
+  "0": {
+    "basicblocks": 66,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 41,
+    "file": "dense_int8.cpp",
+    "fileloc": 23,
+    "instructions": 638,
+    "loads": {
+      "G": 16,
+      "T": 9
+    },
+    "memory_accesses": 14,
+    "name": "dense_int8",
+    "stores": {
+      "G": 2
+    },
+    "total_instructions": 638
+  }
+}

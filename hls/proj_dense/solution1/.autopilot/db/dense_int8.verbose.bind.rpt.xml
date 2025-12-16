@@ -1,0 +1,48 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'dense_int8'" level="0">
+<item name = "Date">Tue Dec 16 15:43:40 2025
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 12 2025)</item>
+<item name = "Project">proj_dense</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 10.114 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1085142, 1085142, 10.975 ms, 10.975 ms, 1085143, 1085143, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_dense_int8_Pipeline_VITIS_LOOP_36_1_VITIS_LOOP_37_2_VITIS_LOOP_38_3_fu_104">dense_int8_Pipeline_VITIS_LOOP_36_1_VITIS_LOOP_37_2_VITIS_LOOP_38_3, 56485, 56485, 0.565 ms, 0.565 ms, 0, 0, loop pipeline stp</column>
+<column name="grp_dense_int8_Pipeline_VITIS_LOOP_71_6_VITIS_LOOP_72_7_VITIS_LOOP_73_8_VITIS_LOOP_7_fu_118">dense_int8_Pipeline_VITIS_LOOP_71_6_VITIS_LOOP_72_7_VITIS_LOOP_73_8_VITIS_LOOP_7, 903191, 903191, 9.032 ms, 9.032 ms, 0, 0, loop pipeline stp</column>
+<column name="grp_dense_int8_Pipeline_VITIS_LOOP_103_12_VITIS_LOOP_108_13_VITIS_LOOP_109_14_VITIS_s_fu_130">dense_int8_Pipeline_VITIS_LOOP_103_12_VITIS_LOOP_108_13_VITIS_LOOP_109_14_VITIS_s, 125456, 125456, 1.269 ms, 1.269 ms, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

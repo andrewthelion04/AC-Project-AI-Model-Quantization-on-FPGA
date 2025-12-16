@@ -1,0 +1,21 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../tb_dense.cpp in debug mode
+   Compiling ../../../../dense_int8.cpp in debug mode
+   Generating csim.exe
+Starting HLS Simulation...
+Output Scores:
+Digit 0: -180235
+Digit 1: -203764
+Digit 2: -91373
+Digit 3: 66312
+Digit 4: -246982
+Digit 5: -138702
+Digit 6: -586901
+Digit 7: 335367
+Digit 8: -128152
+Digit 9: -30471
+PREDICTION: 7
+EXPECTED:   7
+TEST PASS!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

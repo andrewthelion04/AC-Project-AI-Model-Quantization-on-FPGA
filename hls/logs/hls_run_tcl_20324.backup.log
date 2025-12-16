@@ -1,0 +1,57 @@
+  **** HLS Build v2025.2 6295257
+Sourcing Tcl script 'C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/run_hls.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset qnn_dense_hls 
+WARNING: [HLS 200-2182] The 'qnn_dense_hls' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution 'C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/qnn_dense_hls'.
+INFO: [HLS 200-1510] Running: set_top dense_int8 
+INFO: [HLS 200-1510] Running: add_files dense_int8.cpp 
+INFO: [HLS 200-10] Adding design file 'dense_int8.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb_dense.cpp 
+INFO: [HLS 200-10] Adding test bench file 'tb_dense.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -reset sol1 
+INFO: [HLS 200-10] Creating and opening solution 'C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/qnn_dense_hls/sol1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../tb_dense.cpp in debug mode
+   Compiling ../../../../dense_int8.cpp in debug mode
+In file included from ../../../../dense_int8.cpp:1:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\ap_int.h:10:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_half.h:26:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/AMDDesignTools/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+../../../../dense_int8.cpp:2:10: fatal error: 'requantizer.h' file not found
+#include "requantizer.h"
+         ^~~~~~~~~~~~~~~
+1 warning and 1 error generated.
+mingw32-make: *** [csim.mk:97: obj/dense_int8.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-2161] Finished Command csim_design Elapsed time: 00:00:04; Allocated memory: 0.535 MB.
+CSIM Failed
+    while executing
+"source C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/run_hls.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 9.588 seconds; peak allocated memory: 148.168 MB.
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

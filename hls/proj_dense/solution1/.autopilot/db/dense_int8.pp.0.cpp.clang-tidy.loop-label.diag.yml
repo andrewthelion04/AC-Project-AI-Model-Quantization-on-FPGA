@@ -1,0 +1,184 @@
+---
+MainSourceFile:  'C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/proj_dense/solution1/.autopilot/db/dense_int8.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_36_1:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      36
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513133
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_36_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_37_2:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      37
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513173
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_37_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_38_3:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      38
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513215
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_38_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_43_4:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      43
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513307
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_43_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_44_5:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      44
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513359
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_44_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_71_6:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      71
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1513990
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_71_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_72_7:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      72
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514031
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_72_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_73_8:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      73
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514073
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_73_8: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_77_9:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      77
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514164
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_77_9: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_78_10:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      78
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514216
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_78_10: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_79_11:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      79
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514272
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_79_11: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_103_12:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      103
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1514931
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_103_12: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_108_13:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      108
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1515028
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_108_13: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_109_14:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      109
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1515070
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_109_14: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_110_15:  '
+      FilePath:        dense_int8.cpp
+      FileOffset:      110
+      Replacements:
+        - FilePath:        'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls\proj_dense\solution1\.autopilot\db\dense_int8.pp.0.cpp'
+          Offset:          1515116
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_110_15: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\leupe\AC-Project-AI-Model-Quantization-on-FPGA\hls'
+...

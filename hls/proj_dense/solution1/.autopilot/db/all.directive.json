@@ -1,0 +1,24 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "dense_int8",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "dense_int8"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/run_hls.tcl",
+    "sourceLine": 24,
+    "success": true
+  }
+]

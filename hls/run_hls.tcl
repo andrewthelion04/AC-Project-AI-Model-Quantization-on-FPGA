@@ -1,23 +1,29 @@
-# Vitis HLS TCL script
-# Usage: In Vitis HLS: File -> Run Tcl Script -> hls/run_hls.tcl
+# Crearea proiectului
+open_project -reset proj_dense
 
-open_project -reset qnn_dense_hls
+# Setarea functiei de top (numele functiei din cpp)
 set_top dense_int8
-add_files dense_int8.cpp
-add_files -tb tb_dense.cpp
 
-# Choose a target part (edit this):
-# Common choices:
-#   xc7z020clg400-1   (Zynq-7000)
-#   xc7a35tcsg324-1   (Artix-7)
-open_solution -reset "sol1"
+# Adaugarea fisierelor sursa
+add_files dense_int8.cpp
+add_files weights.h
+
+# Adaugarea testbench-ului
+add_files -tb tb_dense.cpp
+add_files -tb test_image.h
+
+# Setarea solutiei (FPGA-ul tinta - aici un Zynq generic)
+open_solution -reset "solution1"
 set_part {xc7z020clg400-1}
 create_clock -period 10 -name default
 
+# 1. Simulare C (Verifica logica pe PC)
 csim_design
+
+# 2. Sinteza C (Genereaza Verilog si Statistici)
 csynth_design
 
-# Export IP if you want to import in Vivado:
-export_design -format ip_catalog
+# 3. Export RTL (Optional, daca vrei sa folosesti in Vivado)
+# export_design -format ip_catalog
 
 exit

@@ -30,21 +30,14 @@ INFO: [HLS 200-2036] Building debug C Simulation binaries
    Compiling ../../../../dense_int8.cpp in debug mode
    Generating csim.exe
 --------------------------------
-HLS PREDICTION: 4 (Score: 293568)
-EXPECTED:       4
+HLS PREDICTION: 2 (Score: 230127)
+EXPECTED:       2
 --------------------------------
 [INFO] Rezultatul a fost scris cu succes in: C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/hls_result.txt
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-2161] Finished Command csim_design Elapsed time: 00:00:07; Allocated memory: 0.531 MB.
+INFO: [HLS 200-2161] Finished Command csim_design Elapsed time: 00:00:04; Allocated memory: 0.562 MB.
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:00; Allocated memory: 0.000 MB.
-error deleting "C:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/proj_dense/solution1/.autopilot/db/be_messages.xml": permission denied
-    while executing
-"source c:/Users/leupe/AC-Project-AI-Model-Quantization-on-FPGA/hls/run_hls.tcl"
-    ("uplevel" body line 1)
-    invoked from within
-"uplevel \#0 [list source $tclfile] "
-
-INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 5 seconds. Total elapsed time: 14.9 seconds; peak allocated memory: 146.738 MB.
-INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.316 seconds; current allocated memory: 146.492 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'dense_int8.cpp' ... 

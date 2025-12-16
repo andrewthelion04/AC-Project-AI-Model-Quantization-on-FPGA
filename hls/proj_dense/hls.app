@@ -1,4 +1,4 @@
-<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" projectType="C/C++" top="dense_int8" name="proj_dense" ideType="classic">
+<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" top="dense_int8" name="proj_dense" ideType="classic">
     <files>
         <file name="weights.h" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
         <file name="dense_int8.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>

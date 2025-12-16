@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 101,
-    "calls": "6 1 1",
+    "calls": "8 1 1",
     "control_depth": 5,
     "def_use_depth": 9,
     "file": "dense_int8.cpp",
@@ -21,7 +21,7 @@
   },
   "1": {
     "basicblocks": 6,
-    "calls": "6",
+    "calls": "8",
     "control_depth": 0,
     "def_use_depth": 3,
     "file": "dense_int8.cpp",
@@ -32,6 +32,24 @@
     "total_instructions": 2162
   },
   "2": {
+    "basicblocks": 16,
+    "calls": "4 6 7 7 3 3",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 12,
+    "instructions": 133,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 0,
+    "name": "generic_cast_IEEE754<signed char, AP_TRN_ZERO, float>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2146
+  },
+  "3": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -43,31 +61,7 @@
     "name": "__signbit",
     "total_instructions": 9
   },
-  "3": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 2,
-    "file": "x_hls_utils.h",
-    "fileloc": 316,
-    "instructions": 8,
-    "memory_accesses": 0,
-    "name": "expv",
-    "total_instructions": 109
-  },
   "4": {
-    "basicblocks": 1,
-    "calls": "7",
-    "control_depth": 0,
-    "def_use_depth": 1,
-    "file": "hls_case_IEEE754.h",
-    "fileloc": 116,
-    "instructions": 2,
-    "memory_accesses": 0,
-    "name": "generic_cast_IEEE754<signed char, float>",
-    "total_instructions": 2148
-  },
-  "5": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -85,37 +79,19 @@
     },
     "total_instructions": 318
   },
-  "6": {
+  "5": {
     "basicblocks": 1,
-    "calls": "4",
+    "calls": "2",
     "control_depth": 0,
     "def_use_depth": 1,
-    "file": "lib_floatconversion.cpp",
-    "fileloc": 49,
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 116,
     "instructions": 2,
     "memory_accesses": 0,
-    "name": "__hls_fptosi_float_i8",
-    "total_instructions": 2150
+    "name": "generic_cast_IEEE754<signed char, float>",
+    "total_instructions": 2148
   },
-  "7": {
-    "basicblocks": 16,
-    "calls": "5 8 3 3 2 2",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "hls_case_IEEE754.h",
-    "fileloc": 12,
-    "instructions": 133,
-    "loads": {
-      "L": 1
-    },
-    "memory_accesses": 0,
-    "name": "generic_cast_IEEE754<signed char, AP_TRN_ZERO, float>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 2146
-  },
-  "8": {
+  "6": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -126,5 +102,29 @@
     "memory_accesses": 0,
     "name": "mantissa",
     "total_instructions": 178
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "x_hls_utils.h",
+    "fileloc": 316,
+    "instructions": 8,
+    "memory_accesses": 0,
+    "name": "expv",
+    "total_instructions": 109
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "5",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "lib_floatconversion.cpp",
+    "fileloc": 49,
+    "instructions": 2,
+    "memory_accesses": 0,
+    "name": "__hls_fptosi_float_i8",
+    "total_instructions": 2150
   }
 }

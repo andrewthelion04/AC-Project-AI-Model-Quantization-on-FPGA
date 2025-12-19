@@ -62,15 +62,7 @@ python python/train_fp32.py
 # Output: models/mnist_fp32.pt
 ```
 
-### Pasul 2: Evaluare și Benchmark (FP32 vs INT8)
-Generează automat tabele de acuratețe comparând modelul software cu simularea hardware bit-exactă. Acest script generează automat și codul LaTeX necesar pentru documentația tehnică.
-
-```bash
-python python/benchmark_accuracy.py
-```
-*Output așteptat:* Tabel comparativ (ex: FP32: 98.50% vs INT8: 98.15%).
-
-### Pasul 3: Sinteză Hardware și Raportare Resurse (Vitis HLS)
+### Pasul 2: Sinteză Hardware și Raportare Resurse (Vitis HLS)
 Acest pas transformă codul C++ (`dense_int8.cpp`) în RTL (Verilog), rulând simularea C (`csim`), sinteza (`csynth`) și exportul IP-ului.
 
 ```bash
@@ -78,14 +70,14 @@ Acest pas transformă codul C++ (`dense_int8.cpp`) în RTL (Verilog), rulând si
 vitis_hls -f hls/run_hls.tcl
 ```
 
-**Unde găsesc rapoartele?**
+**RAPOARTE**
 * **Locație:** `hls/proj_mnist_hls/solution1/syn/report/`
 * **Ce informații conțin:**
     * **Latency (Cycles):** Viteza de execuție a unei predicții.
     * **Initiation Interval (II):** Throughput-ul acceleratorului.
     * **Utilization:** Consumul de resurse FPGA (DSP48E, LUT, FF, BRAM).
 
-### Pasul 4: Demo Interactiv (Live Inference)
+### Pasul 3: Demo Interactiv (Live Inference)
 Scriptul principal care integrează totul. Acesta trimite imagini din setul de testare către simulatorul FPGA și afișează rezultatul în timp real.
 * **Mod:** Secvențial (prezice 3 cifre consecutive pentru a forma un număr mare).
 * **Vizualizare:** ASCII Art în consolă.
